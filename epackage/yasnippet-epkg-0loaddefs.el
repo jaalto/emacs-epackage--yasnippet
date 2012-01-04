@@ -1,7 +1,7 @@
 
-;;;### (autoloads (yas/global-mode yas/minor-mode) "yasnippet" "../yasnippet.el"
-;;;;;;  (20201 11324))
-;;; Generated autoloads from ../yasnippet.el
+;;;### (autoloads (yas/global-mode yas/minor-mode) "yasnippet"
+;;;;;;  "../yasnippet.el" (20206 63711))
+;;; Generated autoloads from yasnippet.el
 
 (autoload 'yas/minor-mode "yasnippet" "\
 Toggle YASnippet mode.
@@ -27,12 +27,14 @@ Setting this variable directly does not take effect;
 either customize it (see the info node `Easy Customization')
 or call the function `yas/global-mode'.")
 
-(custom-autoload 'yas/global-mode "yasnippet" nil)
+(custom-autoload 'yas/global-mode "../yasnippet" nil)
 
 (autoload 'yas/global-mode "yasnippet" "\
-Toggle Yas/Minor mode in every possible buffer.
-With prefix ARG, turn Yas/Global mode on if and only if
-ARG is positive.
+Toggle Yas/Minor mode in all buffers.
+With prefix ARG, enable Yas/Global mode if ARG is positive;
+otherwise, disable it.  If called from Lisp, enable the mode if
+ARG is omitted or nil.
+
 Yas/Minor mode is enabled in all buffers where
 `yas/minor-mode-on' would do it.
 See `yas/minor-mode' for more information on Yas/Minor mode.
@@ -40,4 +42,3 @@ See `yas/minor-mode' for more information on Yas/Minor mode.
 \(fn &optional ARG)" t nil)
 
 ;;;***
-(provide 'yasnippet-epkg-0loaddefs)
