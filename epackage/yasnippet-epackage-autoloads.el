@@ -173,4 +173,4 @@
 (autoload 'yas/snippet-description-finish-runonce "yasnippet" "" nil)
 (autoload 'yas/create-snippet-xrefs             "yasnippet" "" nil)
 (autoload 'yas/expand-uuid                      "yasnippet" "" nil)
-(provide 'yasnippet-epkg-autoloads)
+(provide 'yasnippet-epackage-autoloads)

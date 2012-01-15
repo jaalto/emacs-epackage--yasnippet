@@ -30,4 +30,4 @@
 (autoload 'yas/skip-and-clear-or-delete-char    "yasnippet" "" t)
 
 (autoload 'yas/initialize                       "yasnippet" "" nil) ;; Main entry
-(provide 'yasnippet-epkg-install)
+(provide 'yasnippet-epackage-install)
